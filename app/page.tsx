@@ -22,7 +22,7 @@ export default async function Home() {
         <p className="text-xl md:text-2xl font-mono max-w-2xl leading-relaxed">
           Curso de diseño y desarrollo de audio interactivo.
           <br />
-          <span className="opacity-50">Explorando la intersección entre sonido, código y experiencia de usuario.</span>
+          <span className="opacity-50">Explorando la intersección entre sonido y experiencia de usuario.</span>
         </p>
       </section>
 
