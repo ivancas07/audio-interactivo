@@ -2,7 +2,7 @@ import { getPublishedWeeks } from "@/lib/notion";
 import { Search } from "@/components/Search";
 import { ThemeToggle } from "@/components/ThemeToggle";
 
-export const revalidate = 3600;
+export const revalidate = 300;
 
 export default async function Home() {
   const weeks = await getPublishedWeeks();

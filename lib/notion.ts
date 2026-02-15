@@ -59,7 +59,7 @@ async function queryDatabase(databaseId: string, filter: any, sorts: any[]) {
             filter,
             sorts,
         }),
-        next: { revalidate: 3600 }
+        next: { revalidate: 300 }
     });
 
     if (!res.ok) {
